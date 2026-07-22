@@ -18,4 +18,6 @@ class AddNoteCubit extends Cubit<AddNoteState> {
       emit(AddNoteFailure(e.toString(), errorMessage: ''));
     }
   }
+
+  void fetchAllNotes() {}
 }
